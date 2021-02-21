@@ -1,0 +1,115 @@
+{
+  "name": "wod-wta",
+  "title": "Werewolf the Apocalypse",
+  "description": "Werewolf the Apocalypse module for WOD System",
+  "version": "0.1",
+  "minimumCoreVersion": "0.7.3",
+  "compatibleCoreVersion": "0.7.9",
+  "systems": [
+    "wod"
+  ],
+  "author": "Zigmund",
+  "esmodules": ["module/wod-wta.js"],
+  "packs": [
+    {
+      "name": "archetypes",
+      "label": "Archetypes",
+      "system": "wod",
+      "path": "./packs/archetypes.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "auspices",
+      "label": "Auspices",
+      "system": "wod",
+      "path": "./packs/auspices.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "backgrounds",
+      "label": "Historiques",
+      "system": "wod",
+      "path": "./packs/backgrounds.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "breeds",
+      "label": "Races",
+      "system": "wod",
+      "path": "./packs/breeds.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "deformities",
+      "label": "Difformités",
+      "system": "wod",
+      "path": "./packs/deformities.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "derangements",
+      "label": "Dérangements",
+      "system": "wod",
+      "path": "./packs/derangements.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "fetishes",
+      "label": "Fétiches",
+      "system": "wod",
+      "path": "./packs/fetishes.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "gifts",
+      "label": "Dons",
+      "system": "wod",
+      "path": "./packs/gifts.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "merits-flaws",
+      "label": "Atouts & Handicaps",
+      "system": "wod",
+      "path": "./packs/merits-flaws.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "rites",
+      "label": "Rites",
+      "system": "wod",
+      "path": "./packs/rites.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "talens",
+      "label": "Talens",
+      "system": "wod",
+      "path": "./packs/vf/wta/wta-talens.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "tribes",
+      "label": "Tribus",
+      "system": "wod",
+      "path": "./packs/vf/wta/wta-tribes.db",
+      "entity": "Item",
+      "tag" : "wta"
+    }
+  ],
+  "url": "https://github.com/ZigmundKreud/wod-wta.git",
+  "manifest": "https://raw.githubusercontent.com/ZigmundKreud/wod-wta/main/module.json",
+  "download": "https://github.com/ZigmundKreud/wod-wta/archive/0.1.zip",
+  "license": "licence.txt"
+}
