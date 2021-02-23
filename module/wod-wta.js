@@ -7,8 +7,7 @@ import {DataLoader} from "./data.js";
 
 Hooks.once("ready", async () => {
 
-    console.debug("Importing data");
-
+    // console.debug("Importing data");
     // DataLoader.loadData("wod-wta", "/modules/wod-wta/data/json/fr", "archetypes");
     // DataLoader.loadData("wod-wta", "/modules/wod-wta/data/json/fr", "auspices");
     // DataLoader.loadData("wod-wta", "/modules/wod-wta/data/json/fr", "backgrounds");
