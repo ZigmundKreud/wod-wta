@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Revolver, léger",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>SW M640 (.38 spécial)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 4,
+        "range": 12,
+        "rate": 3,
+        "clip": "6",
+        "conceal": "pocket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Revolver, lourd",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Colt Anaconda (.44 Magnum)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 6,
+        "range": 35,
+        "rate": 2,
+        "clip": "6",
+        "conceal": "jacket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Pistolet semi-automatique, léger",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Glock 17 (9 mm)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 4,
+        "range": 20,
+        "rate": 4,
+        "clip": "17+1",
+        "conceal": "pocket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Pistolet semi-automatique, lourd",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>IMI Desert Eagle (.50 AE)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 5,
+        "range": 25,
+        "rate": 3,
+        "clip": "13+1",
+        "conceal": "jacket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Carabine",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Remington M-700 (30.06)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 8,
+        "range": 200,
+        "rate": 1,
+        "clip": "5+1",
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Pistolet mitrailleur, petit",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Ingram Mac-10 (9 mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 4,
+        "range": 25,
+        "rate": 3,
+        "clip": "30+1",
+        "conceal": "jacket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Pistolet mitrailleur, grand",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>HK MP-5 (9 mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 4,
+        "range": 50,
+        "rate": 3,
+        "clip": "30+1",
+        "conceal": "trenchcoat"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Fusil d’assaut",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>AK-47 (7.62x39mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 7,
+        "range": 150,
+        "rate": 3,
+        "clip": "30+1",
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Fusil à pompe scié",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Winchester model 24 double corps (calibre 12)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 8,
+        "range": 10,
+        "rate": 2,
+        "clip": 2,
+        "conceal": "jacket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Fusil à pompe",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Ithaca M-37 (calibre 12)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 8,
+        "range": 20,
+        "rate": 1,
+        "clip": "5+1",
+        "conceal": "trenchcoat"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Fusil à pompe, semi-automatique",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Benelli M4 (calibre 12)</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 8,
+        "range": 25,
+        "rate": 3,
+        "clip": "6+1",
+        "conceal": "trenchcoat"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Fusil à pompe, Assaut",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>MPS AA-12 (calibre 12)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 8,
+        "range": 50,
+        "rate": 3,
+        "clip": "32+1",
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Arc court",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 4,
+        "range": 60,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Arc de chasse",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 5,
+        "range": 100,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Arc long",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 5,
+        "range": 120,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Arbalète compacte",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p><p>Télescopique ; il faut un tour pour déplier l’arme, plus une action pour la charger une fois dépliée.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 3,
+        "range": 20,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "jacket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Arbalète",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 5,
+        "range": 90,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "trenchcoat"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Arbalète, lourde",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 6,
+        "range": 100,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "none"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Taser",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 5,
+        "range": 5,
+        "rate": 1,
+        "clip": 1,
+        "conceal": "pocket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Gaz lacrymogène",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 3,
+        "range": 3,
+        "rate": 1,
+        "clip": 5,
+        "conceal": "pocket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  },
+  {
+    "name": "Bombe au poivre",
+    "type": "item",
+    "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
+    "data": {
+      "description": "<p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
+      "subtype": "ranged",
+      "ranged": {
+        "damage": 4,
+        "range": 3,
+        "rate": 1,
+        "clip": 3,
+        "conceal": "pocket"
+      },
+      "properties": {
+        "equipable": true,
+        "ranged": true
+      }
+    }
+  }
+]

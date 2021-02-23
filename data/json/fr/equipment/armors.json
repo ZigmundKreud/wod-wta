@@ -1,0 +1,206 @@
+[
+  {
+    "name" : "Cuir épais (1)",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 1,
+        "penalty" : 0
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Cuir épais (2)",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 2,
+        "penalty" : 0
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Cuir épais (3)",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 3,
+        "penalty" : 0
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Vêtements renforcés",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 1,
+        "penalty" : 0
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Blouson de moto",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 3,
+        "penalty" : 1
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Cache-poussière en cuir",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 2,
+        "penalty" : 2
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Peau d'ours",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 3,
+        "penalty" : 3
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Plastron d'acier",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 3,
+        "penalty" : 2
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Veste en kevlar",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 3,
+        "penalty" : 1
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Gilet pare-balles",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 4,
+        "penalty" : 2
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Tenue anti-émeute",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 5,
+        "penalty" : 3
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  },
+  {
+    "name" : "Couvercle de poubelle",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/armor.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "armor",
+      "protection" : {
+        "absorption" : 3,
+        "penalty" : 0
+      },
+      "properties" : {
+        "equipable": true,
+        "protection": true
+      }
+    }
+  }
+]

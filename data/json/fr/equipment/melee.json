@@ -1,0 +1,547 @@
+[
+  {
+    "name" : "Matraque",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 4,
+        "damageStat" : "str",
+        "damageBonus" : 0,
+        "damageType" : "bashing",
+        "conceal" : "pocket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Fouet",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Peut être utilisé pour entraver un membre d’un adversaire à une difficulté de +1.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "lethal",
+        "conceal" : "jacket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Gant clouté",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "lethal",
+        "conceal" : "jacket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Tesson de bouteille",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Se brise après trois utilisations.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "lethal",
+        "conceal" : "pocket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Chaise",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 2,
+        "damageType" : "bashing",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Table",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Armes à deux mains ; très lourdes - Force 3 minimum pour les utiliser.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 8,
+        "damageStat" : "str",
+        "damageBonus" : 3,
+        "damageType" : "bashing",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Chaîne",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Peut être utilisé pour entraver un membre d’un adversaire à une difficulté de +1.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 5,
+        "damageStat" : "str",
+        "damageBonus" : 0,
+        "damageType" : "bashing",
+        "conceal" : "jacket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Bâton",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 5,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "bashing",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Massue",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 2,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Batte de baseball",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 5,
+        "damageStat" : "str",
+        "damageBonus" : 2,
+        "damageType" : "bashing",
+        "conceal" : "trenchcoat"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Gourdin clouté",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 2,
+        "damageType" : "lethal",
+        "conceal" : "trenchcoat"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Énorme gourdin clouté",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Armes à deux mains ; très lourdes - Force 3 minimum pour les utiliser.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 3,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Couteau",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 4,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "lethal",
+        "conceal" : "pocket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Épée",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 2,
+        "damageType" : "lethal",
+        "conceal" : "trenchcoat"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Klaive",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Armes en argent ; leurs dégâts ne peuvent pas être absorbés par les loups-garous sauf dans leur forme naturelle (les métis ne peuvent pas absorber ces dégâts).</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "aggravated",
+        "conceal" : "jacket"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Grand Klaive",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Armes en argent ; leurs dégâts ne peuvent pas être absorbés par les loups-garous sauf dans leur forme naturelle (les métis ne peuvent pas absorber ces dégâts).</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 3,
+        "damageType" : "aggravated",
+        "conceal" : "trenchcoat"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Épée à deux mains",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Armes à deux mains ; très lourdes - Force 3 minimum pour les utiliser.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 4,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Hache",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 3,
+        "damageType" : "lethal",
+        "conceal" : "trenchcoat"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Hache à deux mains",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Armes à deux mains ; très lourdes - Force 3 minimum pour les utiliser.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 4,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Arme d’hast",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 7,
+        "damageStat" : "str",
+        "damageBonus" : 3,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Tronçonneuse",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/melee.jpg",
+    "data" : {
+      "description" : "<p>Inflige ses dégâts à l’utilisateur en cas d’échec critique.</p>",
+      "subtype" : "melee",
+      "melee" : {
+        "difficulty" : 8,
+        "damageStat" : "str",
+        "damageBonus" : 7,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "melee": true
+      }
+    }
+  },
+  {
+    "name" : "Couteau",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "thrown" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 0,
+        "damageType" : "lethal",
+        "conceal" : "pocket"
+      },
+      "properties" : {
+        "equipable": true,
+        "thrown": true,
+        "stackable": true
+      }
+    }
+  },
+  {
+    "name" : "Shuriken",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "thrown" : {
+        "difficulty" : 7,
+        "damageStat" : null,
+        "damageBonus" : 3,
+        "damageType" : "lethal",
+        "conceal" : "pocket"
+      },
+      "properties" : {
+        "equipable": true,
+        "thrown": true,
+        "stackable": true
+      }
+    }
+  },
+  {
+    "name" : "Lance",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "thrown" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "lethal",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "thrown": true
+      }
+    }
+  },
+  {
+    "name" : "Pierre",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "thrown" : {
+        "difficulty" : 5,
+        "damageStat" : "str",
+        "damageBonus" : 0,
+        "damageType" : "bashing",
+        "conceal" : "variable"
+      },
+      "properties" : {
+        "equipable": true,
+        "thrown": true,
+        "stackable": true
+      }
+    }
+  },
+  {
+    "name" : "Pierre...grosse comme une tête",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "thrown" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 3,
+        "damageType" : "bashing",
+        "conceal" : "none"
+      },
+      "properties" : {
+        "equipable": true,
+        "thrown": true
+      }
+    }
+  },
+  {
+    "name" : "Tomahawk",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "thrown" : {
+        "difficulty" : 6,
+        "damageStat" : "str",
+        "damageBonus" : 1,
+        "damageType" : "lethal",
+        "conceal" : "jacket"
+      },
+      "properties" : {
+        "equipable": true,
+        "thrown": true,
+        "stackable": true
+      }
+    }
+  }
+
+]

@@ -95,7 +95,7 @@
       "name": "talens",
       "label": "Talens",
       "system": "wod",
-      "path": "./packs/vf/wta/wta-talens.db",
+      "path": "./packs/talens.db",
       "entity": "Item",
       "tag" : "wta"
     },
@@ -103,7 +103,15 @@
       "name": "tribes",
       "label": "Tribus",
       "system": "wod",
-      "path": "./packs/vf/wta/wta-tribes.db",
+      "path": "./packs/tribes.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "equipment",
+      "label": "Équipement",
+      "system": "wod",
+      "path": "./packs/equipment.db",
       "entity": "Item",
       "tag" : "wta"
     }

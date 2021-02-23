@@ -1,5 +1,3 @@
-import {System} from "../config.js";
-
 export class DataLoader {
 
     /**
@@ -18,9 +16,10 @@ export class DataLoader {
      * @param filepath
      * @returns {Promise<any>}
      */
-    static findPack(packName) {
+    static findPack(moduleName, packName) {
+        console.log(`${moduleName}.${packName}`)
         // Reference a Compendium pack by it's collection ID
-        return game.packs.find(p => p.collection === `${System.name}.${packName}`);
+        return game.packs.find(p => p.collection === `${moduleName}.${packName}`);
     }
 
     /**
@@ -48,10 +47,10 @@ export class DataLoader {
      * @param packName
      * @returns {Promise<void>}
      */
-    static async loadData(packName) {
+    static async loadData(moduleName, dataPath, packName) {
         console.info(`Importing ${packName}...`);
         // Find pack from his pack name
-        let pack = this.findPack(packName);
+        let pack = this.findPack(moduleName, packName);
 
         // Get entity type to populate the proper collection
         const entity = pack.metadata.entity;
@@ -63,7 +62,7 @@ export class DataLoader {
         await this.clearPack(pack);
 
         // Load data from JSON files
-        const filepath = `${System.dataPath}/${packName}.json`;
+        const filepath = `${dataPath}/${packName}.json`;
         const content = await this.loadJson(filepath);
         /* Import databases to compendiums */
         switch(entity){
