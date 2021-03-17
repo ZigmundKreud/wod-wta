@@ -1,0 +1,8 @@
+<div class="toolbar">
+    <div class="tb-toggle"><a class="tb-toggle-link"><img src="/modules/wod-wta/ui/werewolf/werewolf-token.png" height="50" width="50" style="border:none"/></a></div>
+    <div class="tb-menu" id="tb-menu" style="display:none">
+        {{#each forms as |form id|}}
+            <div class="btn {{#if active}}active{{/if}}"><a class="metamorphosis" data-type="metamorphosis" data-item-id="{{key}}">{{localize label}}</a></div>
+        {{/each}}
+    </div>
+</div>

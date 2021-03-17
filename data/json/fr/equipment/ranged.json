@@ -4,18 +4,35 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>SW M640 (.38 spécial)</p>",
+      "description": "<h1>Revolver, léger</h1><p>SW M640 (.38 spécial)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 4,
-        "range": 12,
-        "rate": 3,
-        "clip": "6",
-        "conceal": "pocket"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "pocket"
+        },
+        "ranged": {
+          "range": 12,
+          "rate": 3,
+          "clip": "6"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 4,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false
       }
     }
   },
@@ -24,18 +41,35 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Colt Anaconda (.44 Magnum)</p>",
+      "description": "<h1>Revolver, lourd</h1><p>Colt Anaconda (.44 Magnum)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 6,
-        "range": 35,
-        "rate": 2,
-        "clip": "6",
-        "conceal": "jacket"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "jacket"
+        },
+        "ranged": {
+          "range": 35,
+          "rate": 2,
+          "clip": "6"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 6,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false
       }
     }
   },
@@ -44,18 +78,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Glock 17 (9 mm)</p>",
+      "description": "<h1>Pistolet semi-automatique, léger</h1><p>Glock 17 (9 mm)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 4,
-        "range": 20,
-        "rate": 4,
-        "clip": "17+1",
-        "conceal": "pocket"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "pocket"
+        },
+        "ranged": {
+          "range": 20,
+          "rate": 4,
+          "clip": "17+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 4,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  true,
+        "3roundBurst" :  true,
+        "spray" : true
       }
     }
   },
@@ -64,18 +118,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>IMI Desert Eagle (.50 AE)</p>",
+      "description": "<h1>Pistolet semi-automatique, lourd</h1><p>IMI Desert Eagle (.50 AE)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 5,
-        "range": 25,
-        "rate": 3,
-        "clip": "13+1",
-        "conceal": "jacket"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "jacket"
+        },
+        "ranged": {
+          "range": 25,
+          "rate": 3,
+          "clip": "13+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 5,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  true,
+        "3roundBurst" :  true,
+        "spray" : true
       }
     }
   },
@@ -84,18 +158,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Remington M-700 (30.06)</p>",
+      "description": "<h1>Carabine</h1><p>Remington M-700 (30.06)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 8,
-        "range": 200,
-        "rate": 1,
-        "clip": "5+1",
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "none"
+        },
+        "ranged": {
+          "range": 200,
+          "rate": 1,
+          "clip": "5+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 8,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" :  false,
+        "spray" : false
       }
     }
   },
@@ -104,18 +198,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Ingram Mac-10 (9 mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "description": "<h1>Pistolet mitrailleur, petit</h1><p>Ingram Mac-10 (9 mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 4,
-        "range": 25,
-        "rate": 3,
-        "clip": "30+1",
-        "conceal": "jacket"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "jacket"
+        },
+        "ranged": {
+          "range": 25,
+          "rate": 3,
+          "clip": "30+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 4,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  true,
+        "3roundBurst" :  true,
+        "spray" : true
       }
     }
   },
@@ -124,18 +238,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>HK MP-5 (9 mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "description": "<h1>Pistolet mitrailleur, grand</h1><p>HK MP-5 (9 mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 4,
-        "range": 50,
-        "rate": 3,
-        "clip": "30+1",
-        "conceal": "trenchcoat"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "trenchcoat"
+        },
+        "ranged": {
+          "range": 50,
+          "rate": 3,
+          "clip": "30+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 4,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  true,
+        "3roundBurst" :  true,
+        "spray" : true
       }
     }
   },
@@ -144,18 +278,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>AK-47 (7.62x39mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "description": "<h1>Fusil d’assaut</h1><p>AK-47 (7.62x39mm)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 7,
-        "range": 150,
-        "rate": 3,
-        "clip": "30+1",
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal": "none"
+        },
+        "ranged": {
+          "range": 150,
+          "rate": 3,
+          "clip": "30+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 7,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  true,
+        "3roundBurst" :  true,
+        "spray" : true
       }
     }
   },
@@ -164,18 +318,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Winchester model 24 double corps (calibre 12)</p>",
+      "description": "<h1>Fusil à pompe scié</h1><p>Winchester model 24 double corps (calibre 12)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 8,
-        "range": 10,
-        "rate": 2,
-        "clip": 2,
-        "conceal": "jacket"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "jacket"
+        },
+        "ranged": {
+          "range": 10,
+          "rate": 2,
+          "clip": 2
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 8,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" :  false,
+        "spray" : false
       }
     }
   },
@@ -184,18 +358,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Ithaca M-37 (calibre 12)</p>",
+      "description": "<h1>Fusil à pompe</h1><p>Ithaca M-37 (calibre 12)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 8,
-        "range": 20,
-        "rate": 1,
-        "clip": "5+1",
-        "conceal": "trenchcoat"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "trenchcoat"
+        },
+        "ranged": {
+          "range": 20,
+          "rate": 1,
+          "clip": "5+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 8,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" :  false,
+        "spray" : false
       }
     }
   },
@@ -204,18 +398,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Benelli M4 (calibre 12)</p>",
+      "description": "<h1>Fusil à pompe, semi-automatique</h1><p>Benelli M4 (calibre 12)</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 8,
-        "range": 25,
-        "rate": 3,
-        "clip": "6+1",
-        "conceal": "trenchcoat"
+      "facets" : {
+        "equipable" : {
+          "conceal" : "trenchcoat"
+        },
+        "ranged": {
+          "range": 25,
+          "rate": 3,
+          "clip": "6+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 8,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" :  false,
+        "spray" : false
       }
     }
   },
@@ -224,18 +438,38 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>MPS AA-12 (calibre 12)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
+      "description": "<h1>Fusil à pompe, Assaut</h1><p>MPS AA-12 (calibre 12)</p><p>L’arme est capable de tir automatique, de rafales de trois balles et d’arrosage.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 8,
-        "range": 50,
-        "rate": 3,
-        "clip": "32+1",
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal": "none"
+        },
+        "ranged": {
+          "range": 50,
+          "rate": 3,
+          "clip": "32+1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 8,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  true,
+        "3roundBurst" :  true,
+        "spray" : true
       }
     }
   },
@@ -244,18 +478,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "description": "<h1>Arc court</h1><p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 4,
-        "range": 60,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal": "none"
+        },
+        "ranged": {
+          "range": 60,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 4,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "archery"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "bow": true,
+        "2h" : true,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -264,18 +519,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "description": "<h1>Arc de chasse</h1><p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 5,
-        "range": 100,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal": "none"
+        },
+        "ranged": {
+          "range": 100,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 5,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "archery"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "bow": true,
+        "2h" : true,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -284,18 +560,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "description": "<h1>Arc long</h1><p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 5,
-        "range": 120,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal": "none"
+        },
+        "ranged": {
+          "range": 120,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 5,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "archery"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "bow": true,
+        "2h" : true,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -304,18 +601,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p><p>Télescopique ; il faut un tour pour déplier l’arme, plus une action pour la charger une fois dépliée.</p>",
+      "description": "<h1>Arbalète compacte</h1><p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p><p>Télescopique ; il faut un tour pour déplier l’arme, plus une action pour la charger une fois dépliée.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 3,
-        "range": 20,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "jacket"
+      "facets" : {
+        "equipable" : {
+          "conceal": "jacket"
+        },
+        "ranged": {
+          "range": 20,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 3,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "archery"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "bow": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -324,18 +642,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "description": "<h1>Arbalète</h1><p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 5,
-        "range": 90,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "trenchcoat"
+      "facets" : {
+        "equipable" : {
+          "conceal": "trenchcoat"
+        },
+        "ranged": {
+          "range": 90,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 5,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "archery"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "bow": true,
+        "2h" : true,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -344,18 +683,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
+      "description": "<h1>Arbalète, lourde</h1><p>Il faut une action automatique pour encocher et bander les arcs courts et longs, et deux actions automatiques pour recharger une arbalète.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 6,
-        "range": 100,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "none"
+      "facets" : {
+        "equipable" : {
+          "conceal": "none"
+        },
+        "ranged": {
+          "range": 100,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 6,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "archery"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "bow": true,
+        "2h" : true,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -364,18 +724,39 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
+      "description": "<h1>Taser</h1><p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
       "subtype": "ranged",
-      "ranged": {
-        "damage": 5,
-        "range": 5,
-        "rate": 1,
-        "clip": 1,
-        "conceal": "pocket"
+      "facets" : {
+        "equipable" : {
+          "conceal": "pocket"
+        },
+        "ranged": {
+          "range": 5,
+          "rate": 1,
+          "clip": "1"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 5,
+          "damageType" : "bashing",
+          "attackStat" : "dex",
+          "attackAbility" : "firearms"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "ranged": true,
+        "weapon": true,
+        "firearm": true,
+        "bow": false,
+        "2h" : false,
+        "bashing" : true,
+        "lethal" : false,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -384,18 +765,43 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
-      "subtype": "ranged",
-      "ranged": {
-        "damage": 3,
-        "range": 3,
-        "rate": 1,
-        "clip": 5,
-        "conceal": "pocket"
+      "description": "<h1>Gaz lacrymogène</h1><p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
+      "subtype": "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal": "pocket"
+        },
+        "ranged": {
+          "range": 3,
+          "rate": 1,
+          "clip": "5"
+        },
+        "stackable" : {
+          "stackSize": 5
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 3,
+          "damageType" : "bashing",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "stackable": true,
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "thrown": true,
+        "2h" : false,
+        "bashing" : true,
+        "lethal" : false,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   },
@@ -404,18 +810,43 @@
     "type": "item",
     "img": "/modules/wod-wta/ui/icons/items/ranged.jpg",
     "data": {
-      "description": "<p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
-      "subtype": "ranged",
-      "ranged": {
-        "damage": 4,
-        "range": 3,
-        "rate": 1,
-        "clip": 3,
-        "conceal": "pocket"
+      "description": "<h1>Bombe au poivre</h1><p>Dégâts contondants et non létaux ; pas de dégâts supplémentaires grâce aux réussites obtenues. Le gaz lacrymogène et la bombe au poivre retirent deux dés aux groupements de la cible pendant un tour par réussite.</p>",
+      "subtype": "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal": "pocket"
+        },
+        "ranged": {
+          "range": 3,
+          "rate": 1,
+          "clip": "3"
+        },
+        "stackable" : {
+          "stackSize": 5
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : null,
+          "damageBonus" : 4,
+          "damageType" : "bashing",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
       },
-      "properties": {
+      "properties" : {
         "equipable": true,
-        "ranged": true
+        "stackable": true,
+        "ranged": true,
+        "weapon": true,
+        "firearm": false,
+        "thrown": true,
+        "2h" : false,
+        "bashing" : true,
+        "lethal" : false,
+        "aggravated" : false,
+        "fullauto" :  false,
+        "3roundBurst" : false,
+        "spray" : false
       }
     }
   }

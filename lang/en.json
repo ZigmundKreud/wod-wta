@@ -1,0 +1,35 @@
+{
+  "WTA.characterTemplate.werewolf": "Werewolf",
+  "WTA.characterTemplate.spirit": "Spirit",
+  "WTA.sheet.werewolf" : "Werewolf Character Sheet",
+
+  "WOD.auspice.ahroun": "Ahroun",
+  "WOD.auspice.galliard": "Galliard",
+  "WOD.auspice.philodox": "Philodox",
+  "WOD.auspice.theurge": "Theurge",
+  "WOD.auspice.ragabash": "Ragabash",
+
+  "WOD.breed.homid" : "Homid",
+  "WOD.breed.metis" : "Metis",
+  "WOD.breed.lupus" : "Lupus",
+
+  "WOD.forms.homid" : "Homid",
+  "WOD.forms.glabro" : "Glabro",
+  "WOD.forms.crinos" : "Crinos",
+  "WOD.forms.hispo" : "Hispo",
+  "WOD.forms.lupus" : "Lupus",
+
+  "WOD.tribe.black-furies" : "Black Furies",
+  "WOD.tribe.bone-gnawers" : "Bone Gnawers",
+  "WOD.tribe.children-of-gaia" : "Children of Gaia",
+  "WOD.tribe.fianna" : "Fianna",
+  "WOD.tribe.get-of-fenris" : "Get of Fenris",
+  "WOD.tribe.glass-walkers" : "Glass Walkers",
+  "WOD.tribe.red-talons" : "Red Talons",
+  "WOD.tribe.shadow-lords" : "Shadow Lords",
+  "WOD.tribe.silent-striders" : "Silent Striders",
+  "WOD.tribe.silver-fangs" : "Silver Fangs",
+  "WOD.tribe.stagazers" : "Stargazers",
+  "WOD.tribe.uktena" : "Uktena",
+  "WOD.tribe.wendigo" : "Wendigo"
+}

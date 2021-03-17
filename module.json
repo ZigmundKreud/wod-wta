@@ -9,7 +9,20 @@
     "wod"
   ],
   "author": "Zigmund",
-  "esmodules": ["module/wod-wta.js"],
+  "esmodules": ["module/wta.js"],
+  "styles": ["css/wta.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
   "packs": [
     {
       "name": "archetypes",
@@ -112,6 +125,14 @@
       "label": "Équipement",
       "system": "wod",
       "path": "./packs/equipment.db",
+      "entity": "Item",
+      "tag" : "wta"
+    },
+    {
+      "name": "maneuvers",
+      "label": "Manoeuvres",
+      "system": "wod",
+      "path": "./packs/maneuvers.db",
       "entity": "Item",
       "tag" : "wta"
     }

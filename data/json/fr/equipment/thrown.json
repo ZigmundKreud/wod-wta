@@ -1,0 +1,206 @@
+[
+  {
+    "name" : "Couteau",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal" : "pocket"
+        },
+        "stackable" : {
+          "stackSize": 10
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : "str",
+          "damageBonus" : 0,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
+      },
+      "properties" : {
+        "equipable": true,
+        "stackable": true,
+        "thrown": true,
+        "weapon": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false
+      }
+    }
+  },
+  {
+    "name" : "Shuriken",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal" : "pocket"
+        },
+        "stackable" : {
+          "stackSize": 10
+        },
+        "weapon": {
+          "difficulty" : 7,
+          "damageStat" : null,
+          "damageBonus" : 3,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
+      },
+      "properties" : {
+        "equipable": true,
+        "stackable": true,
+        "thrown": true,
+        "weapon": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false
+      }
+    }
+  },
+  {
+    "name" : "Lance",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal" : "none"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : "str",
+          "damageBonus" : 1,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
+      },
+      "properties" : {
+        "equipable": true,
+        "stackable": false,
+        "thrown": true,
+        "weapon": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false
+      }
+    }
+  },
+  {
+    "name" : "Pierre",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal" : "variable"
+        },
+        "stackable" : {
+          "stackSize": 5
+        },
+        "weapon": {
+          "difficulty" : 5,
+          "damageStat" : "str",
+          "damageBonus" : 0,
+          "damageType" : "bashing",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
+      },
+      "properties" : {
+        "equipable": true,
+        "stackable": true,
+        "thrown": true,
+        "weapon": true,
+        "2h" : false,
+        "bashing" : true,
+        "lethal" : false,
+        "aggravated" : false
+      }
+    }
+  },
+  {
+    "name" : "Pierre...grosse comme une tête",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal" : "none"
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : "str",
+          "damageBonus" : 3,
+          "damageType" : "bashing",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
+      },
+      "properties" : {
+        "equipable": true,
+        "stackable": false,
+        "thrown": true,
+        "weapon": true,
+        "2h" : false,
+        "bashing" : true,
+        "lethal" : false,
+        "aggravated" : false
+      }
+    }
+  },
+  {
+    "name" : "Tomahawk",
+    "type" : "item",
+    "img" : "/modules/wod-wta/ui/icons/items/thrown.jpg",
+    "data" : {
+      "description" : "<p></p>",
+      "subtype" : "thrown",
+      "facets" : {
+        "equipable" : {
+          "conceal" : "jacket"
+        },
+        "stackable" : {
+          "stackSize": 5
+        },
+        "weapon": {
+          "difficulty" : 6,
+          "damageStat" : "str",
+          "damageBonus" : 1,
+          "damageType" : "lethal",
+          "attackStat" : "dex",
+          "attackAbility" : "athletics"
+        }
+      },
+      "properties" : {
+        "equipable": true,
+        "stackable": true,
+        "thrown": true,
+        "weapon": true,
+        "2h" : false,
+        "bashing" : false,
+        "lethal" : true,
+        "aggravated" : false
+      }
+    }
+  }
+]

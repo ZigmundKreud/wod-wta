@@ -6,9 +6,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 1,
-        "penalty" : 0
+      "facets" : {
+        "protection" : {
+          "absorption" : 1,
+          "penalty" : 0
+        }
       },
       "properties" : {
         "equipable": true,
@@ -23,9 +25,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 2,
-        "penalty" : 0
+      "facets" : {
+        "protection" : {
+          "absorption" : 2,
+          "penalty" : 0
+        }
       },
       "properties" : {
         "equipable": true,
@@ -40,9 +44,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 3,
-        "penalty" : 0
+      "facets" : {
+        "protection" : {
+          "absorption" : 3,
+          "penalty" : 0
+        }
       },
       "properties" : {
         "equipable": true,
@@ -57,9 +63,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 1,
-        "penalty" : 0
+      "facets" : {
+        "protection" : {
+          "absorption" : 1,
+          "penalty" : 0
+        }
       },
       "properties" : {
         "equipable": true,
@@ -74,9 +82,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 3,
-        "penalty" : 1
+      "facets" : {
+        "protection" : {
+          "absorption" : 3,
+          "penalty" : 1
+        }
       },
       "properties" : {
         "equipable": true,
@@ -91,9 +101,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 2,
-        "penalty" : 2
+      "facets" : {
+        "protection" : {
+          "absorption" : 2,
+          "penalty" : 2
+        }
       },
       "properties" : {
         "equipable": true,
@@ -108,9 +120,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 3,
-        "penalty" : 3
+      "facets" : {
+        "protection" : {
+          "absorption" : 3,
+          "penalty" : 3
+        }
       },
       "properties" : {
         "equipable": true,
@@ -125,9 +139,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 3,
-        "penalty" : 2
+      "facets" : {
+        "protection" : {
+          "absorption" : 3,
+          "penalty" : 2
+        }
       },
       "properties" : {
         "equipable": true,
@@ -142,9 +158,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 3,
-        "penalty" : 1
+      "facets" : {
+        "protection" : {
+          "absorption" : 3,
+          "penalty" : 1
+        }
       },
       "properties" : {
         "equipable": true,
@@ -159,9 +177,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 4,
-        "penalty" : 2
+      "facets" : {
+        "protection" : {
+          "absorption" : 4,
+          "penalty" : 2
+        }
       },
       "properties" : {
         "equipable": true,
@@ -176,9 +196,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 5,
-        "penalty" : 3
+      "facets" : {
+        "protection" : {
+          "absorption" : 5,
+          "penalty" : 3
+        }
       },
       "properties" : {
         "equipable": true,
@@ -193,9 +215,11 @@
     "data" : {
       "description" : "",
       "subtype" : "armor",
-      "protection" : {
-        "absorption" : 3,
-        "penalty" : 0
+      "facets" : {
+        "protection" : {
+          "absorption" : 3,
+          "penalty" : 0
+        }
       },
       "properties" : {
         "equipable": true,

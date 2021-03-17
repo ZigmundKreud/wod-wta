@@ -1,0 +1,36 @@
+{
+  "WTA.characterTemplate.werewolf": "Loup-Garou",
+  "WTA.characterTemplate.spirit": "Esprit",
+  "WTA.sheet.werewolf" : "Feuille de Personnage Loup-Garou",
+
+
+  "WOD.auspice.ahroun": "Ahroun",
+  "WOD.auspice.galliard": "Galliard",
+  "WOD.auspice.philodox": "Philodox",
+  "WOD.auspice.theurge": "Théurge",
+  "WOD.auspice.ragabash": "Ragabash",
+
+  "WOD.breed.homid" : "Homidé",
+  "WOD.breed.metis" : "Métis",
+  "WOD.breed.lupus" : "Lupus",
+
+  "WOD.forms.homid" : "Homidé",
+  "WOD.forms.glabro" : "Glabro",
+  "WOD.forms.crinos" : "Crinos",
+  "WOD.forms.hispo" : "Hispo",
+  "WOD.forms.lupus" : "Lupus",
+
+  "WOD.tribe.black-furies" : "Furies Noires",
+  "WOD.tribe.bone-gnawers" : "Rongeurs d'Os",
+  "WOD.tribe.children-of-gaia" : "Enfants de Gaïa",
+  "WOD.tribe.fianna" : "Fianna",
+  "WOD.tribe.get-of-fenris" : "Fils de Fenris",
+  "WOD.tribe.glass-walkers" : "Marcheurs sur Verre",
+  "WOD.tribe.red-talons" : "Griffes Rouges",
+  "WOD.tribe.shadow-lords" : "Seigneurs des Ombres",
+  "WOD.tribe.silent-striders" : "Arpenteurs Silencieux",
+  "WOD.tribe.silver-fangs" : "Crocs d'Argent",
+  "WOD.tribe.stagazers" : "Astrolâtres",
+  "WOD.tribe.uktena" : "Uktena",
+  "WOD.tribe.wendigo" : "Wendigo"
+}

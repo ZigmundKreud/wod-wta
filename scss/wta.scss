@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Werewolf";
+  src: url('../fonts/werewolf.ttf');
+}
+
+@font-face {
+  font-family: "CaflischScriptPro";
+  src: url('../fonts/caflischscriptpro-regular.otf');
+}
+
+$font-werewolf: "Werewolf", Serif;
+$font-werewolf2: "CaflischScriptPro", Serif;
+
+
+.wod {
+  &.actor {
+    .window-content {
+      .werewolf {
+        .wrap {
+          .toolbar {
+            position: absolute;
+            float: right;
+            top: 32px;
+            z-index: 1000;
+            left: 3px;
+
+            .btn {
+              cursor: pointer;
+              font-size: 16px;
+              font-weight: bold;
+              padding: 0 5px;
+              background: white;
+              box-shadow: 0 0 5px #999 inset;
+              border: 1px outset #999;
+              border-radius: 3px;
+              margin-bottom: 2px;
+              color: #777;
+              font-family: Werewolf;
+              font-size: 16px;
+
+              &.active {
+                border: 1px inset #999;
+                background: rgba(180, 180, 180, 0.9);
+                color: #333;
+              }
+            }
+          }
+
+          .sheet-header {
+            .header-fields {
+              .logo {
+                background-image: url("../ui/werewolf/logo-v20.png");
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: top;
+                background-size: auto 150px;
+                min-height: 150px;
+                height: 150px;
+                max-height: 150px;
+                margin-top: -30px;
+              }
+
+              .details {
+                .field-label {
+                  font-family: $font-werewolf2;
+                  font-weight: bold;
+                  font-size: 20px;
+                }
+              }
+
+              .sheet-tabs {
+                font-family: $font-werewolf;
+                font-weight: bold;
+                font-size: 20px;
+              }
+            }
+          }
+
+          .sheet-body {
+            .section-header {
+              background-image: url("../ui/werewolf/separator-short.png");
+              background-repeat: repeat-x;
+              background-size: 311px 37px;
+              background-position-y: center;
+
+              .section-title {
+                background-color: white;
+                font-family: $font-werewolf;
+                font-weight: bold;
+                font-size: 30px;
+                padding: 5px 10px 5px 10px;
+                margin: 7px 10px 0 10px;
+                box-shadow: 0 0 10px white;
+              }
+            }
+
+            .main {
+              .section-content {
+                .section-title {
+                  font-family: $font-werewolf;
+                  font-weight: bold;
+                  font-size: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
