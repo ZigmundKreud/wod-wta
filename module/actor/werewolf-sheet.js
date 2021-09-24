@@ -56,13 +56,15 @@ export class WtaWerewolfSheet extends WodActorSheet {
     /** @override */
     getData(options){
         const data = super.getData(options);
+        // The Actor's data
+        // const actorData = this.actor.data.toObject(false);
         console.log(data);
-        data.forms = data.data.resources.forms;
-        data.breed = data.items.find(item => item.type === "breed");
-        data.auspice = data.items.find(item => item.type === "auspice");
-        data.tribe = data.items.find(item => item.type === "tribe");
-        data.gifts = data.items.filter(item => item.type === "gifts");
-        data.rites = data.items.filter(item => item.type === "rite");
+        // data.forms = data.data.resources.forms;
+        // data.breed = data.items.find(item => item.type === "breed");
+        // data.auspice = data.items.find(item => item.type === "auspice");
+        // data.tribe = data.items.find(item => item.type === "tribe");
+        // data.gifts = data.items.filter(item => item.type === "gifts");
+        // data.rites = data.items.filter(item => item.type === "rite");
 
         return data;
     }

@@ -2,15 +2,12 @@
   font-family: "Werewolf";
   src: url('../fonts/werewolf.ttf');
 }
-
 @font-face {
   font-family: "CaflischScriptPro";
   src: url('../fonts/caflischscriptpro-regular.otf');
 }
-
-$font-werewolf: "Werewolf", Serif;
-$font-werewolf2: "CaflischScriptPro", Serif;
-
+@font-werewolf: "Werewolf", Serif;
+@font-werewolf2: "CaflischScriptPro", Serif;
 
 .wod {
   &.actor {
@@ -26,7 +23,6 @@ $font-werewolf2: "CaflischScriptPro", Serif;
 
             .btn {
               cursor: pointer;
-              font-size: 16px;
               font-weight: bold;
               padding: 0 5px;
               background: white;
@@ -35,7 +31,7 @@ $font-werewolf2: "CaflischScriptPro", Serif;
               border-radius: 3px;
               margin-bottom: 2px;
               color: #777;
-              font-family: Werewolf;
+              font-family: @font-werewolf;
               font-size: 16px;
 
               &.active {
@@ -62,14 +58,14 @@ $font-werewolf2: "CaflischScriptPro", Serif;
 
               .details {
                 .field-label {
-                  font-family: $font-werewolf2;
+                  font-family: @font-werewolf2;
                   font-weight: bold;
                   font-size: 20px;
                 }
               }
 
               .sheet-tabs {
-                font-family: $font-werewolf;
+                font-family: @font-werewolf;
                 font-weight: bold;
                 font-size: 20px;
               }
@@ -85,7 +81,7 @@ $font-werewolf2: "CaflischScriptPro", Serif;
 
               .section-title {
                 background-color: white;
-                font-family: $font-werewolf;
+                font-family: @font-werewolf;
                 font-weight: bold;
                 font-size: 30px;
                 padding: 5px 10px 5px 10px;
@@ -97,7 +93,7 @@ $font-werewolf2: "CaflischScriptPro", Serif;
             .main {
               .section-content {
                 .section-title {
-                  font-family: $font-werewolf;
+                  font-family: @font-werewolf;
                   font-weight: bold;
                   font-size: 20px;
                 }
